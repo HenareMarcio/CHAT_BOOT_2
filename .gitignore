@@ -1,0 +1,16 @@
+# Ambiente virtual
+.venv/
+
+# Variáveis de ambiente (chave da API)
+.env
+
+# Banco vetorial (dados locais, não precisa versionar)
+chroma_data/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Configs do Chainlit (gerado automaticamente)
+.chainlit/
+.files/
